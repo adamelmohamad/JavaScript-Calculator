@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.6">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <form style="width:590px" name="calculator">
+        <input type="text" name="answer" id="screen">
+        <br>
+
+        <input type="button" value="0" class="btn" onclick = "zerobtn()"/>
+        <input type="button" value="1" class="btn" onclick = "onebtn()"/>
+        <input type="button" value="2" class="btn" onclick = "twobtn()"/>
+        <input type="button" value="3" class="btn" onclick = "threebtn()"/>
+        <input type="button" value="C" class="btn" onclick = "clearbtn()"/>
+
+        <br>
+
+        <input type="button" value="4" class="btn" onclick = "fourbtn()"/>
+        <input type="button" value="5" class="btn" onclick = "fivebtn()"/>
+        <input type="button" value="6" class="btn" onclick = "sixbtn()"/>
+        <input type="button" value="7" class="btn" onclick = "sevenbtn()"/>
+        <input type="button" value="÷" id="divide" class="btn" onclick = "dividebtn()"/>
+
+        <br>
+
+        <input type="button" value="8" class="btn" onclick = "eightbtn()"/>
+        <input type="button" value="9" class="btn" onclick = "ninebtn()"/>
+        <input type="button" value="+" id="plus" class="btn" style="background:#FFA500 !important;" onclick = "plusbtn()"/>
+        <input type="button" value="-" id="minus" class="btn" style="background:#FFA500 !important;" onclick = "subtractbtn()"/>
+        <input type="button" value="x" id="multiply" class="btn" style="background:#FFA500 !important;" onclick = "multiplybtn()"/>
+
+        <br>
+        <input type="button" id="equals" value="=" class="btn" style="background:#FFA500 !important;width:200px" onclick = "equalsbtn()"/>
+
+
+
+      </form>
+
+  
+</body>
+</html>
